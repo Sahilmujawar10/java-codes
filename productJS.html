@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<script language = "javascript">
+
+var Pname = prompt("Enter product name");
+var price = parseDouble(prompt("Enter price"));
+var quantity = parseDouble(prompt)("Enter quantity");
+
+var total = price * quantity;
+
+document.write("the product name is "+ Pname);
+document.write("the product prize is "+ price);
+document.write("the product quantity is "+ quantity);
+document.write("the bill is "+ total);
+
+if(bill>5000)
+{
+
+var f = total * 0.70;
+var discount = total * 0.30;
+
+document.write("the discount amount is "+ discount);
+document.write("the final bill amount is "+ f);
+
+}
+
+else if(bill>3000)
+{
+
+var f = total * 0.80;
+var dis = total * 0.20;
+
+document.write("the discount amount is "+ dis);
+document.write("the final bill amount is "+ f);
+
+}
+else{
+
+}
+</script>
+</head>
+</html>
